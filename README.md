@@ -53,3 +53,10 @@ auto mru = cache4.getMRU(4);
 ### Why the map iterators cannot be stored in the map's value?
 
 `std::unordered_map` does not support such circular definition. `std::map` does, but it is not guaranteed by the C++ Standard.
+
+### How to get Catch2 header?
+
+For example
+```
+wget https://github.com/catchorg/Catch2/releases/download/v2.13.7/catch.hpp
+```
